@@ -9,7 +9,7 @@
     <relativePath>..\TestApp.application.parent</relativePath>
   </parent>
   <artifactId>TestApp.application</artifactId>
-  <packaging>bwear</packaging>
+  <packaging>ear</packaging>
   <properties>
     <appSpace>TestAppspace</appSpace>
     <keystorePath></keystorePath>
