@@ -1,0 +1,74 @@
+{
+  "version" : "1.0.1",
+  "name" : "TestMaven",
+  "number" : "8",
+  "type" : "MAVEN",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.3.9"
+  },
+  "agent" : {
+    "name" : "Jenkins",
+    "version" : "2.150.1"
+  },
+  "started" : "2018-12-31T15:40:23.269+0530",
+  "durationMillis" : 16872,
+  "principal" : "admin",
+  "artifactoryPluginVersion" : "2.16.2",
+  "url" : "http://DESKTOP-8N9FQCB:8080/job/TestMaven/8/",
+  "vcs" : [ ],
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : true,
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : ""
+  },
+  "modules" : [ {
+    "properties" : {
+      "appSpace" : "TestAppspace",
+      "keystorePath" : "",
+      "profile" : "default.substvar",
+      "backup" : "true",
+      "truststorePath" : "",
+      "domainDesc" : "",
+      "agentPort" : "8079",
+      "truststorePassword" : "",
+      "agentAuth" : "BASIC",
+      "agentHost" : "127.0.0.1",
+      "httpPort" : "8777",
+      "appNode" : "TestNode1",
+      "osgiPort" : "",
+      "appSpaceDesc" : "",
+      "redeploy" : "true",
+      "keystorePassword" : "",
+      "agentPassword" : "admin",
+      "backupLocation" : "C:\\Backup",
+      "appNodeDesc" : "",
+      "agentSSL" : "false",
+      "agentUsername" : "admin",
+      "deployToAdmin" : "true",
+      "domain" : "TestDomain"
+    },
+    "id" : "com.tibco.bw:TestApp.application:1.0.0-SNAPSHOT",
+    "artifacts" : [ {
+      "type" : "bwear",
+      "sha1" : "79a4bfe30c57ddcf558d9d74e992628a75448bcd",
+      "md5" : "9533c4ec0f91376f861dc938f792b3f2",
+      "name" : "TestApp.application-1.0.0-SNAPSHOT.ear"
+    }, {
+      "type" : "pom",
+      "sha1" : "9bb152751c0185bbe7891a1b81c4b15b250ac2a9",
+      "md5" : "934d0c83876fc4c8efd8d1fe396a17f1",
+      "name" : "TestApp.application-1.0.0-SNAPSHOT.pom"
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
